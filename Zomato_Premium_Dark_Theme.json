@@ -1,0 +1,98 @@
+{
+  "name": "Zomato Premium Dark",
+  "dataColors": [
+    "#E23744",
+    "#FF6673",
+    "#F58A94",
+    "#B51F2A",
+    "#FFFFFF",
+    "#A7A9AC",
+    "#72757A",
+    "#D9D9D9"
+  ],
+  "background": "#202124",
+  "foreground": "#F5F5F5",
+  "tableAccent": "#E23744",
+  "good": "#43AA8B",
+  "neutral": "#F4B942",
+  "bad": "#E23744",
+  "maximum": "#E23744",
+  "center": "#55585E",
+  "minimum": "#2B2D31",
+  "null": "#777777",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [
+          {
+            "show": true,
+            "fontFace": "Segoe UI Semibold",
+            "fontSize": 12,
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        ],
+        "background": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#2B2D31"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#3D4046"
+              }
+            },
+            "radius": 6
+          }
+        ],
+        "labels": [
+          {
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "fontFace": "Segoe UI Semibold",
+            "fontSize": 11
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#202124"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "outspace": [
+          {
+            "color": {
+              "solid": {
+                "color": "#202124"
+              }
+            },
+            "transparency": 0
+          }
+        ]
+      }
+    }
+  }
+}
